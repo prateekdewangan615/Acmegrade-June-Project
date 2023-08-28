@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Sign up</title>
+    <style>
+        body{
+            background:url(images/bg.PNG);
+            background-size:cover;
+        }
+        *{
+            font-size:115%;
+        }
+        a{
+            font-weight:500;
+            font-size:90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100 flex-column">
+        <form action="login.php" method="post" class="bg-warning p-4">
+            <h3 class="text-center text-dark">Login here..</h3>
+            <input name="uname" required class="form-control mt-3" type="text" placeholder="Enter Username">
+            <input name="upass" required class="form-control mt-3" type="password" placeholder="Enter Password">
+            <div class="text-center">
+                <button class="btn btn-success mt-3">Login</button>
+            </div>
+            
+        </form>
+        <div class="">
+            <a href="signup.htm">Signup here..</a>
+        </div>
+    </div>
+</body>
+</html>
